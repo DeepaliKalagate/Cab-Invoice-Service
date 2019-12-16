@@ -10,6 +10,11 @@ public class InvoiceService {
     private static final double PREMIUM_MINIMUM_FARE = 20;
     private RideRepository rideRepository;
     RideCategory rideCategory;
+
+    {
+        rideCategory = RideCategory.NORMALRIDE;
+    }
+
     public double calculateFare(double distance, int time) {
         double totalFare = 0;
         if (rideCategory.equals(RideCategory.NORMALRIDE)) {

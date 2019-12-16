@@ -44,7 +44,7 @@ public class InVoiceServiceTest {
                 new Ride(2.0, 5)};
         invoiceService.addRide(userId,rides);
         InvoiceSummary summary = invoiceService.getInvoiceServide(userId, RideCategory.PREMIUMRIDE);
-        InvoiceSummary expectedInvoiceSummary = new InvoiceSummary(2, 43.5);
+        InvoiceSummary expectedInvoiceSummary = new InvoiceSummary(2, 60);
         Assert.assertEquals(expectedInvoiceSummary, summary);
     }
 
