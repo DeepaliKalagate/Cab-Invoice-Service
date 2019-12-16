@@ -1,6 +1,7 @@
 import com.InvoiceService;
 import com.InvoiceSummary;
 import com.Ride;
+import com.RideCategory;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -42,12 +43,10 @@ public class InVoiceServiceTest {
         Ride[] rides1 = {new Ride(0.1, 1),
                 new Ride(2.0, 5)};
         invoiceService.addRide(userId,rides);
-        InvoiceSummary summary = invoiceService.getInvoiceServide(userId);
-        InvoiceSummary expectedInvoiceSummary = new InvoiceSummary(2, 30);
+        InvoiceSummary summary = invoiceService.getInvoiceServide(userId, RideCategory.PREMIUMRIDE);
+        InvoiceSummary expectedInvoiceSummary = new InvoiceSummary(2, 43.5);
         Assert.assertEquals(expectedInvoiceSummary, summary);
     }
 
-    @Test
-    public void () {
-    }
+
 }
