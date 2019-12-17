@@ -23,13 +23,21 @@ public class InVoiceServiceTest {
         String userId="abc.com";
         Ride[] rides = {new Ride(0.1, 1),
                 new Ride(2.0, 5)};
-    /*    Ride[] rides1 = {new Ride(0.1, 1),
-                new Ride(2.0, 5)};*/
         invoiceService.addRide(userId,rides);
         InvoiceSummary summary = invoiceService.getInvoiceService(userId, RideCategory.NORMALRIDE);
         InvoiceSummary expectedInvoiceSummary = new InvoiceSummary(2, 30);
         Assert.assertEquals(expectedInvoiceSummary, summary);
     }
 
+    @Test
+    public void givenUserIdAndRidesForPremium_ShouldReturnInvoiceSummary() {
+        String userId="abc.com";
+        Ride[] rides = {new Ride(0.1, 1),
+                new Ride(2.0, 5)};
+        invoiceService.addRide(userId,rides);
+        InvoiceSummary summary = invoiceService.getInvoiceService(userId, RideCategory.PREMIUMRIDE);
+        InvoiceSummary expectedInvoiceSummary = new InvoiceSummary(2, 60);
+        Assert.assertEquals(expectedInvoiceSummary, summary);
+    }
 
 }
