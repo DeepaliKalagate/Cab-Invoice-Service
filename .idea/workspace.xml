@@ -4,10 +4,27 @@
     <list default="true" id="df98eaba-8f8f-46d7-9104-56f6ebe9d9e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/InVoiceServiceTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/InVoiceServiceTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-InVoiceServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-InVoiceServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/InvoiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/NormalAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/PremiumAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/RepositoryAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/RideAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/RideAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/RideCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/RideCategory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/InVoiceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InVoiceServiceTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.InVoiceServiceTest.givenDistanceAndTime_ShouldReturnTotalFare">
+  <component name="RunManager" selected="Gradle.InVoiceServiceTest.givenUserIdAndRides_ShouldReturnInvoiceSummary">
     <configuration name="InVoiceServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -170,9 +187,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.InVoiceServiceTest.givenUserIdAndRides_ShouldReturnInvoiceSummary" />
         <item itemvalue="Gradle.InVoiceServiceTest.givenDistanceAndTime_ShouldReturnTotalFare" />
         <item itemvalue="Gradle.InVoiceServiceTest" />
-        <item itemvalue="Gradle.InVoiceServiceTest.givenUserIdAndRides_ShouldReturnInvoiceSummary" />
         <item itemvalue="Gradle.InVoiceServiceTest.givenMultipleRides_ShouldReturnInvoiceSummary" />
         <item itemvalue="Gradle.InVoiceServiceTest.givenMultipleRides_ShouldReturnTotalFare" />
       </list>
@@ -196,11 +213,57 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/InVoiceServiceTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/InVoiceServiceTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/InVoiceServiceTest.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/RideAdapter.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/RideAdapter.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/FareInitializer.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/FareInitializer.java</url>
+          <line>25</line>
+          <properties class="com.FareInitializer" method="getFareParamList">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$InVoiceServiceTest.ic" NAME="InVoiceServiceTest Coverage Results" MODIFIED="1576505144536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
